@@ -679,3 +679,26 @@ h2 {
     font-size: 64px;
   }
 }
+
+/* Language choice stays visible beside the preview link on narrow screens. */
+.language-switch { display: inline-flex; align-items: center; gap: 4px; padding: 4px; border: 1px solid #536443; border-radius: 6px; font-size: 11px; letter-spacing: .04em; }
+.language-switch > * { padding: 5px 7px; border-radius: 3px; }
+.language-switch [aria-current="page"] { background: var(--lime); color: #172212; }
+.language-switch a:hover { color: var(--lime); }
+.language-switch a:focus-visible { outline: 2px solid var(--lime); outline-offset: 2px; }
+@media (max-width: 760px) {
+  .landing-nav > div { gap: 8px; }
+  .landing-nav > div > a.nav-back { display: inline; }
+}
+@media (max-width: 360px) {
+  .landing-nav { padding-inline: 4%; }
+  .landing-nav .landing-brand { font-size: 20px; gap: 6px; }
+  .landing-nav .landing-brand > span { width: 28px; height: 28px; font-size: 25px; }
+  .landing-nav .nav-cta { padding: 8px; font-size: 10px; }
+  .language-switch { gap: 1px; padding: 2px; font-size: 10px; }
+  .language-switch > * { padding: 5px; }
+}
+
+@media (max-width: 360px) {
+  .closing h2 { font-size: 48px; letter-spacing: -3px; }
+}

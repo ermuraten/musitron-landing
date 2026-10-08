@@ -16,3 +16,7 @@ Die ursprüngliche Produktseite liegt im separaten App-Projekt unter `landing.ht
 `CNAME` gehört zu musitron.mrwhisper.site. DNS: Hostinger CNAME `musitron` auf `ermuraten.github.io` (TTL 300). Apex und Mail-Einträge nicht ändern.
 
 Aktuell keine öffentlichen App-Downloads/Checkout. Dienstanschrift im Impressum noch ausstehend.
+
+## Sprachen
+
+Deutsch: https://musitron.mrwhisper.site/ — Englisch: https://musitron.mrwhisper.site/en/. Sprachwahl oben auf Startseite und Rechtstexten; Impressum/Datenschutz ebenfalls übersetzt, Kontakt musitron@mrwhisper.site. Beide Fassungen bestehen aus statischem HTML; eigene Canonicals und gegenseitige hreflang-Verweise, Sitemap mit sechs Seiten, robots Allow: /. Bei Inhaltsänderungen beide Fassungen mitpflegen. Der App-Screenshot zeigt weiterhin die tatsächliche deutsche App-Oberfläche.
